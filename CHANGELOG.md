@@ -1,3 +1,9 @@
+# 3.4.0
+
+* Fix iOS background isolate issue.
+* Add namespace to Gradle for Android.
+* Rebuild projects on Flutter s
+
 # 3.1.1
 
 * Upgrade kotlin version.
