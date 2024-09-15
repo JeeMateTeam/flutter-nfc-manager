@@ -768,8 +768,8 @@ extension SwiftNfcManagerPlugin: NFCTagReaderSessionDelegate {
         self.tags[handle] = tag
         DispatchQueue.main.sync {
           self.channel.invokeMethod("onDiscovered", arguments: data.merging(["handle": handle]) { cur, _ in cur })
-          if !self.shouldInvalidateSessionAfterFirstRead { session.restartPolling() }
         }
+        if !self.shouldInvalidateSessionAfterFirstRead { session.restartPolling() }
       }
     }
   }
