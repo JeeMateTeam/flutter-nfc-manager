@@ -1,3 +1,8 @@
+# 3.5.0
+
+* Upgrade Flutter.
+* Fix analyze issues.
+
 # 3.4.0
 
 * Fix iOS background isolate issue.
